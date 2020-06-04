@@ -41,7 +41,7 @@ const listNotes = () => {
     console.log(chalk.blue.inverse('Your notes'))
     notes.forEach(note => {
         console.log(chalk.blue(note.title))
-    });
+    })
 
 }
 
